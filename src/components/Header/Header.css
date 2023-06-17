@@ -1,0 +1,122 @@
+.home__header{
+    height: 100px;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px
+}
+
+
+.search__bar{
+    height: 40px;
+    max-width:40%;
+    width:25%;
+    min-width: 300px;
+    border:none;
+    padding:5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size:16px;
+    outline:none;
+    font-weight: bold;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.searchbar__container{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.1),-1px -2px 4px rgba(0,0,0,0.1);
+    border-radius:20px;
+    border:1px solid lightgray;
+}
+
+.searchBtn__container{
+    height: 40;
+    border-radius: 0%;
+}
+
+/* .search__btn{
+    background-color: lightgreen;
+    border:none;
+    max-width: 100px;
+    width:30vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.search__btn:hover{
+    background-color:springgreen;
+} */
+
+.search__btn {
+    position: relative;
+    background-color:lightgreen;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding:5;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.search__btn:after {
+    content: "";
+    background: lightseagreen;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.search__btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.user__profile{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(45deg,lightseagreen,lightgreen);
+    padding:10px 10px;
+    justify-content: center;
+    align-items:center;
+    row-gap: 5px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.2),-1px -2px 4px rgba(0,0,0,0.2);
+    border:1px solid lightgray;
+}
+
+.user__profile:hover{
+    background-color: lightgreen;
+}
+.user__profile > img{
+    height:50px;
+    width:50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.user__profile > p {
+    font-weight: bold;
+}

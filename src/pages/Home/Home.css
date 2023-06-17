@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.home__container{
+    height: 95vh;
+    width: 100vw;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    row-gap:5px;
+
+}
+
+
+
+.main__container{
+    display: flex;
+    column-gap: 5px;
+}
+
+
+.logo{
+    height: 50px;
+}
+

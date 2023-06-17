@@ -1,0 +1,26 @@
+.nav__bar{
+    position:sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 26vw;
+    background-color: white;
+    padding:20px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+.blur__icon{
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2),-1px -2px 8px rgba(0,0,0,0.2);
+    border:1px solid lightgray;
+}
+.blur__icon:active{
+    
+    transform: rotate(360);
+}
+
+.blur__icon:hover{
+    box-shadow: 2px 4px 8px lightgreen, -1px -2px 8px lightgreen;
+    border:1px solid lightgreen;
+}
